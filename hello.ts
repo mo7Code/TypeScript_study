@@ -1,7 +1,7 @@
-function sayHello(person: string) {
+function say_hello(person: string) {
   return "Hello, " + person;
 }
 
 let userName: string = "tom";
 
-console.log(sayHello(userName));
+console.log(say_hello(userName));
