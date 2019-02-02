@@ -1,3 +1,9 @@
-# TypeScript_study
+# typescript 学习过程全记录
 
-学习并掌握TS
+```shell
+#安装
+npm install -g typescript
+
+#编译
+tsc hello.ts
+```
