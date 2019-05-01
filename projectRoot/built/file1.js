@@ -15,7 +15,3 @@ console.log(Point);
 Point.prototype.distanceFromOrigin = function (point) {
     return this.getDistance({ x: 0, y: 0 });
 };
-var lll = new Point(1, 2);
-console.log(lll);
-var rrr = lll.getDistance(2);
-console.log(rrr);
