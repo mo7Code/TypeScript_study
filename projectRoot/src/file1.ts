@@ -18,8 +18,3 @@ interface Point {
 Point.prototype.distanceFromOrigin = function (point: Point) {
   return this.getDistance({ x: 0, y: 0 });
 }
-
-const lll = new Point(1, 2);
-console.log(lll);
-const rrr = lll.getDistance(2);
-console.log(rrr);
