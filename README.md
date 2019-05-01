@@ -1,3 +1,10 @@
+<!--
+ * @LastEditors: Mark
+ * @Description: In User Settings Edit
+ * @Author: Mark
+ * @Date: 2019-05-01 21:16:49
+ * @LastEditTime: 2019-05-02 00:12:18
+ -->
 # typescript 学习过程全记录
 
 ```shell
@@ -7,3 +14,8 @@ npm install -g typescript
 #编译
 tsc hello.ts
 ```
+
+
+学习到变量声明这一章节
+
+<https://www.tslang.cn/docs/handbook/variable-declarations.html>
