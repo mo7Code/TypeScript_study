@@ -1,5 +1,5 @@
 #!/bin/bash
-find . -name "*.js" | xargs rm -rf
+# find . -name "*.js" | xargs rm -rf
 git pull &&
 git add . &&
 git commit -m 'add' &&
