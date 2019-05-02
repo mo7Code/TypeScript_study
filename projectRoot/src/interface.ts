@@ -37,4 +37,54 @@
 
 // 函数类型
 
+// interface SearchFunc {
+//   (subscribe: string, source?: string, ): boolean;
+// }
+
+// let mySearch: SearchFunc = (subString, source) => {
+//   let result = source.search(subString);
+//   return result > -1;
+// }
+
+// mySearch('asd');
+
+// 可索引类型
+
+// interface StringArray {
+//   [index: number]: string;
+// }
+
+// let myArray: StringArray = ["bob", '123'];
+
+
+// class Animal {
+//   name: string;
+// }
+// console.log(new Animal());
+
+// class Dog extends Animal {
+//   breed: string;
+// }
+// console.log(new Animal());
+
+// console.log(new Dog());
+
+interface Counter {
+  (start: number): string;
+  interval: number;
+  reset(): void;
+}
+
+function getCounter(): Counter {
+  let counter = function (start: number): void { } as Counter;
+  counter.interval = 123;
+  counter.reset = function () { };
+  return counter;
+}
+
+
+
+console.log(getCounter());
+
+
 
