@@ -1,20 +1,20 @@
-// interface SquareConfig {
-//   color?: string;
-//   width?: number;
-// }
+interface SquareConfig {
+  color?: string,
+  width?: number,
+}
 
-// function createSquare(config: SquareConfig): { color: string; area: number } {
-//   let newSquare = { color: "white", area: 100 };
-//   if (config.color) {
-//     newSquare.color = config.color;
-//   }
-//   if (config.width) {
-//     newSquare.area = config.width * config.width;
-//   }
-//   return newSquare;
-// }
+function createSquare(config: SquareConfig): { color: string; area: number } {
+  let newSquare = { color: "white", area: 100 };
+  if (config.color) {
+    newSquare.color = config.color;
+  }
+  if (config.width) {
+    newSquare.area = config.width * config.width;
+  }
+  return newSquare;
+}
 
-// let mySquare = createSquare({ color: "black" });
+let mySquare = createSquare({ color: "black" });
 
 
 // interface SquareConfig {
@@ -69,22 +69,22 @@
 
 // console.log(new Dog());
 
-interface Counter {
-  (start: number): string;
-  interval: number;
-  reset(): void;
-}
+// interface Counter {
+//   (start: number): string;
+//   interval: number;
+//   reset(): void;
+// }
 
-function getCounter(): Counter {
-  let counter = function (start: number): void { } as Counter;
-  counter.interval = 123;
-  counter.reset = function () { };
-  return counter;
-}
+// function getCounter(): Counter {
+//   let counter = function (start: number): void { } as Counter;
+//   counter.interval = 123;
+//   counter.reset = function () { };
+//   return counter;
+// }
 
 
 
-console.log(getCounter());
+// console.log(getCounter());
 
 
 
