@@ -3,7 +3,7 @@
  * @Description: In User Settings Edit
  * @Author: Mark
  * @Date: 2019-05-01 21:16:49
- * @LastEditTime: 2019-05-03 01:32:27
+ * @LastEditTime: 2019-05-04 04:04:02
  -->
 
 # typescript 学习过程全记录
@@ -23,3 +23,7 @@ tsc hello.ts
 学习到:类
 
 <https://www.tslang.cn/docs/handbook/interfaces.html>
+
+开始学习:泛型
+
+<https://www.tslang.cn/docs/handbook/generics.html>
