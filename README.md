@@ -3,7 +3,7 @@
  * @Description: In User Settings Edit
  * @Author: Mark
  * @Date: 2019-05-01 21:16:49
- * @LastEditTime: 2019-05-04 04:04:02
+ * @LastEditTime: 2019-05-05 01:05:24
  -->
 
 # typescript 学习过程全记录
@@ -27,3 +27,7 @@ tsc hello.ts
 开始学习:泛型
 
 <https://www.tslang.cn/docs/handbook/generics.html>
+
+开始学习:枚举
+
+<https://www.tslang.cn/docs/handbook/enums.html>
